@@ -225,6 +225,9 @@ h2 {
 
 .star-clock {
     display: inline;
+    border-radius: 5%;
+    background-color: lightpink;
+    padding-right: 5px;
 }
 
 /* Media Queries */
