@@ -240,7 +240,6 @@ h2 {
     }
 
     .blogs {
-        background-color: red;
         display: flex;
         flex-direction: column;
         grid-template-columns: repeat(1, 1fr);
@@ -253,17 +252,19 @@ h2 {
 }
 
 /* Tablet Devices */
-@media only screen and (min-width:688px, max-width:992px) {
+@media only screen and (min-width:688px) and (max-width:992px) {
 
-    .players {
-        grid-template-columns: repeat(2, 1fr);
+    .players,
+    .courses,
+    .course-name {
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .blogs {
         background-color: aqua;
         display: flex;
         flex-direction: column;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
     }
 
     .blog-info {
